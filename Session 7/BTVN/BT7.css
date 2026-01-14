@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    border: 1px solid black;
+    width: 395px;
+    height: 450px;
+}
+h1,label{
+    color: green;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+}
+input{
+    width: 385px;
+}
+select{
+    width: 385px;
+}
+textarea{
+    width: 385px;
+    height: 85px;
+}
+button{
+    text-align: center;
+    width: 375px;
+    height: 35px;
+    background-color: rgb(0, 244, 219);
+    position: relative;
+    left: 10px;
+    top: 15px;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 244, 219);
+}

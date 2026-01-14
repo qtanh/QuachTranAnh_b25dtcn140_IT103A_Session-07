@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wellknown{
+    border: 1px solid black;
+    height: 600px;
+    width: 550px;
+    position: relative;
+    left: 515px;
+}
+#spec{
+    color: orangered;
+}
+#spec::before{
+    content: "⭐";
+}
+img{
+    width: 550px;
+}
+h3{
+    color: green;
+}

@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.service{
+    text-align: center;
+    background-color: #F4F8F6;
+    position:relative;
+    height: 185px;
+    width: 925px;
+    left: 255px;
+}
+.serv{
+    width: 250px;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 7px;
+}
+h3{
+    color: aqua;
+}
+.serv1{
+    position: absolute;
+}
+.serv2{
+    position: absolute;
+    left: 295px;
+    top: -8px;
+}
+.serv3{
+    position: absolute;
+    left: 295px;
+    top: -12px;
+}

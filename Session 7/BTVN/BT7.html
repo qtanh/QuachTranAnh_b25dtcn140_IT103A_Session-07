@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./BT7.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Biểu Mẫu Feedback Phòng Khám Nha Khoa</h1>
+    <form action="fb">
+        <label for="name">Họ và tên</label>
+        <br>
+        <input type="text" placeholder="Nhập họ tên" id="name">
+        <br>
+        <label for="email">Email</label>
+        <br>
+        <input type="email" placeholder="example@gmail.com" id="email">
+        <br>
+        <label for="serv">Dịch vụ đã sử dụng</label>
+        <br>
+        <select name="service" id="serv">
+            <option value="opt1">Khám răng tổng quát</option>
+        </select>
+        <br>
+        <label for="rate">Mức độ hài lòng</label>
+        <br>
+        <select name="rating" id="rate">
+            <option value="rates">Rất hài lòng</option>
+        </select>
+        <br>
+        <label for="resp">Nội dung phản hồi</label>
+        <br>
+        <textarea name="fback" id="resp" placeholder="Hãy cho chúng tôi biết cảm nhận của bạn"></textarea>
+    </form>
+    <button type="submit">Gửi feedback</button>
+</body>
+</html>

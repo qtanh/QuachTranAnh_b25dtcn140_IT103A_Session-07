@@ -1,0 +1,26 @@
+*{
+    margin: 0;padding: 0;
+}
+header{
+    border: 1px solid black;
+    color: black;
+    text-align: center;
+}
+div{
+    background-color: aqua;
+       height: 150px;
+       margin: 0;
+       margin-top: auto;
+       position: relative;
+}
+h1{
+    position: absolute;
+    top: 27px;
+    left: 575px;
+}
+p{
+    font-style: italic;
+}
+span{
+    text-decoration:underline dotted ;
+}

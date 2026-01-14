@@ -1,0 +1,12 @@
+.btn:hover{
+    background-color: red;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+.bth{
+    background-color: green;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    transition: all 5s linear;
+}

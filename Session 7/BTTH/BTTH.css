@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    background-color: #1559B4;
+    height: 465px;
+    position: relative;
+    color: white;
+}
+.about{
+    position: absolute;
+    left: 225px;
+}
+#intr{
+    margin-top: 35px;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 200px;
+    text-align: center;
+    height: 25px;
+}
+#ints{
+    width: 575px;
+}
+button{
+    border: 1px solid #1A73E8;
+    border-radius: 40px;
+    text-decoration: none;
+    color: white;
+    background-color: #1A73E8;
+    width: 155px;
+    height: 45px;
+}
+.year{
+    margin-top: 15px;
+    border: 1px solid #203D66;
+    background-color: #203D66;
+    border-radius: 10px;
+    width: 225px;
+    height: 75px;
+}
+.cus{
+    border: 1px solid #203D66;
+    background-color: #203D66;
+    border-radius: 10px;
+    width: 225px;
+    height: 75px;
+}
+.rate{
+    border: 1px solid #203D66;
+    background-color: #203D66;
+    border-radius: 10px;
+    width: 225px;
+    height: 75px;
+}
+#tot{
+    position: relative;
+    left: 15px;
+}
+button:hover{
+    background-color: #203D66;
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.year:hover{
+    transform: translateY(-2px);
+}
+.cus:hover{
+    transform: translateY(-2px);
+}
+.rate:hover{
+    transform:translateY(-2px)
+}
+.content{
+    position: absolute;
+    left: 225px;
+}
+.cont1{
+    margin-top: 46px;
+    margin-bottom: 35px;
+}
+.cont2{
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 1115px;
+    height: 236px;
+    position: relative;
+}
+.footer{
+    position: absolute;
+    left: 225px;
+    top: 925px;
+}
+.hot{
+    border: 1px solid #bdd8fd;
+    background-color: #bdd8fd;
+    color: #1A73E8;
+    border-radius: 30px;
+    width: 45px;
+    text-align: center;
+    font-weight: bolder;
+    height: 30px;
+    position: absolute;
+    right: 25px;
+    top: 15px;
+}
+#hott{
+    position: absolute;
+    left: 6px;
+    top:4px;
+}
+ul{
+    position: relative;
+    left: 35px;
+}
+h3{
+    position: relative;
+    top: 25px;
+    margin-bottom: 22px;
+    left: 12px;
+}
+#ad{
+    position: relative;
+    left: 12px;
+}
+#price{
+    position: relative;
+    left: 21px;
+    top: 25px;
+    font-size: 20px;
+    color: #00357b;
+    text-decoration: none;
+}
+.cont2:hover{
+    transform: translateY(-6px);
+}
+a:hover{
+    transform: translateY(6px);
+}
